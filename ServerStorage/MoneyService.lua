@@ -29,7 +29,7 @@ local CONFIG = {
 	CURRENCY_NAME     = "$",   -- display name
 	DATA_STORE_NAME   = "MoneyService_v1", -- DataStore key prefix
 	AUTO_SAVE_INTERVAL = 60,       -- seconds between auto-saves
-	USE_DATA_STORE    = false,      -- set false for testing (data won't persist)
+	USE_DATA_STORE    = true,      -- set false for testing (data won't persist)
 }
 
 -- ─────────────────────────────────────────────
